@@ -1,24 +1,29 @@
 # Feature Engineering Practice
 
-This repository contains a basic implementation of feature engineering techniques using Python.
+## Overview
+
+This repository contains a hands-on implementation of basic feature engineering and data preprocessing techniques using Python. It is designed for learning and understanding how raw data is prepared before applying machine learning models.
+
+---
 
 ## Topics Covered
 
 * Handling missing values
 * Encoding categorical data
-* Feature scaling
+* Feature scaling (Standardization)
 * Log transformation
 
-## File
+---
 
-* feature_engineering_practice.ipynb
+## Notebooks Included
 
-## Tools Used
+* **feature_engineering_practice.ipynb**
+  Covers fundamental feature engineering steps such as missing value handling, encoding, scaling, and transformations.
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
+* **scaling_visualization.ipynb** *(optional if you add it)*
+  Demonstrates feature scaling with visual comparison (before vs after scaling).
+
+---
 
 ## Steps Performed
 
@@ -26,17 +31,45 @@ This repository contains a basic implementation of feature engineering technique
 2. Handled missing values using mean
 3. Encoded categorical column (Gender)
 4. Applied StandardScaler for feature scaling
-5. Used log transformation on Salary column
+5. Performed log transformation on Salary column
+6. Visualized data before and after scaling
 
-## Purpose
+---
 
-This notebook is created for learning and practicing basic feature engineering steps used in data preprocessing.
+## Tools & Libraries
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
+
+## Key Learnings
+
+* Importance of preprocessing in machine learning
+* Difference between raw and scaled data
+* When and why to use feature scaling
+* Basic understanding of data transformation techniques
+
+---
 
 ## How to Run
 
-* Open the notebook in Jupyter Notebook or Google Colab
-* Run all cells step by step
+1. Open the notebook in Jupyter Notebook or Google Colab
+2. Run all cells sequentially
+3. Observe outputs and visualizations
+
+---
+
+## Purpose
+
+This project is created for practice and to build a strong foundation in feature engineering concepts used in real-world machine learning workflows.
+
+---
 
 ## Note
 
-This is a practice notebook for learning purposes.
+This is a beginner-level practice project focused on understanding core concepts rather than building a production-ready system.
