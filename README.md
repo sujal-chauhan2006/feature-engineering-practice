@@ -8,10 +8,10 @@ This repository contains a hands-on implementation of basic feature engineering 
 
 ## Topics Covered
 
-* Handling missing values
-* Encoding categorical data
-* Feature scaling (Standardization & MinMax Scaling)
-* Log transformation
+* Handling missing values  
+* Encoding categorical data (Label, Ordinal, One Hot Encoding)  
+* Feature scaling (Standardization & MinMax Scaling)  
+* Log transformation  
 
 ---
 
@@ -20,8 +20,14 @@ This repository contains a hands-on implementation of basic feature engineering 
 * **feature_engineering_practice.ipynb**  
   Covers fundamental feature engineering steps such as missing value handling, encoding, scaling, and transformations.
 
-* **Feature_Scaling_Normalization.ipynb**  
-  Demonstrates feature scaling techniques including StandardScaler and MinMaxScaler with visual comparison (before vs after scaling).
+* **scaling_visualization.ipynb**  
+  Demonstrates feature scaling techniques with visualization (before vs after scaling).
+
+* **standard_vs_minmax_scaling.ipynb**  
+  Compares StandardScaler and MinMaxScaler.
+
+* **categorical_encoding_practice.ipynb**  
+  Covers categorical encoding techniques including Label Encoding, Ordinal Encoding, and One Hot Encoding.
 
 ---
 
@@ -29,10 +35,10 @@ This repository contains a hands-on implementation of basic feature engineering 
 
 1. Created a sample dataset  
 2. Handled missing values using mean  
-3. Encoded categorical column (Gender)  
+3. Encoded categorical columns using different encoding techniques  
 4. Applied StandardScaler and MinMaxScaler for feature scaling  
-5. Performed log transformation on Salary column  
-6. Visualized data before and after scaling  
+5. Performed log transformation on numerical data  
+6. Visualized data before and after preprocessing  
 
 ---
 
@@ -52,13 +58,14 @@ This repository contains a hands-on implementation of basic feature engineering 
 * Importance of preprocessing in machine learning  
 * Difference between raw and scaled data  
 * When and why to use feature scaling  
-* Basic understanding of data transformation techniques  
+* Understanding different encoding techniques  
+* Basic understanding of data transformation methods  
 
 ---
 
 ## How to Run
 
-1. Open the notebook in Jupyter Notebook or Google Colab  
+1. Open the notebooks in Jupyter Notebook or Google Colab  
 2. Run all cells sequentially  
 3. Observe outputs and visualizations  
 
