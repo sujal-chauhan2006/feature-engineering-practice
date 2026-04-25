@@ -12,22 +12,31 @@ This repository contains a hands-on implementation of basic feature engineering 
 * Encoding categorical data (Label, Ordinal, One Hot Encoding)  
 * Feature scaling (Standardization & MinMax Scaling)  
 * Log transformation  
+* Data cleaning and correlation analysis  
 
 ---
 
 ## Notebooks Included
 
-* **feature_engineering_practice.ipynb**  
+* feature_engineering_practice.ipynb  
   Covers fundamental feature engineering steps such as missing value handling, encoding, scaling, and transformations.
 
-* **scaling_visualization.ipynb**  
+* scaling_visualization.ipynb  
   Demonstrates feature scaling techniques with visualization (before vs after scaling).
 
-* **standard_vs_minmax_scaling.ipynb**  
+* standard_vs_minmax_scaling.ipynb  
   Compares StandardScaler and MinMaxScaler.
 
-* **categorical_encoding_practice.ipynb**  
+* categorical_encoding_practice.ipynb  
   Covers categorical encoding techniques including Label Encoding, Ordinal Encoding, and One Hot Encoding.
+
+* Feature(Ordinal_Encoding).ipynb  
+  Extended notebook with practical dataset including:
+  - One-Hot Encoding on Fuel Type and Transmission  
+  - Boolean to numeric conversion (0/1)  
+  - Data cleaning by removing unnecessary columns  
+  - Handling errors in correlation computation  
+  - Correlation analysis with target variable (Price)  
 
 ---
 
@@ -39,6 +48,11 @@ This repository contains a hands-on implementation of basic feature engineering 
 4. Applied StandardScaler and MinMaxScaler for feature scaling  
 5. Performed log transformation on numerical data  
 6. Visualized data before and after preprocessing  
+7. Applied One-Hot Encoding on real dataset features  
+8. Converted boolean values into numeric format  
+9. Removed unnecessary columns (Brand, Model)  
+10. Fixed correlation errors by selecting numeric data  
+11. Performed correlation analysis to understand feature impact on Price  
 
 ---
 
@@ -59,7 +73,10 @@ This repository contains a hands-on implementation of basic feature engineering 
 * Difference between raw and scaled data  
 * When and why to use feature scaling  
 * Understanding different encoding techniques  
-* Basic understanding of data transformation methods  
+* Handling categorical data in real datasets  
+* Importance of cleaning data before analysis  
+* Fixing errors related to non-numeric data  
+* Understanding feature relationships using correlation  
 
 ---
 
@@ -79,4 +96,4 @@ This project is created for practice and to build a strong foundation in feature
 
 ## Note
 
-This is a beginner-level practice project focused on understanding core concepts rather than building a production-ready system.
+This is a beginner-level practice project focused on understanding core concepts while gradually improving towards real dataset handling and analysis.
