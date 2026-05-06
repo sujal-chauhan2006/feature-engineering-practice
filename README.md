@@ -2,20 +2,34 @@
 
 ## 📌 Overview
 
-This repository contains hands-on practice of **feature engineering and data preprocessing techniques** using Python.
-It focuses on understanding how raw data is transformed into a format suitable for machine learning models.
+This repository contains hands-on practice of **feature engineering, data preprocessing, and transformation techniques** using Python and Scikit-learn.  
+It focuses on understanding how raw data is cleaned, transformed, encoded, and prepared for machine learning models.
+
+The repository includes beginner-friendly practical notebooks covering preprocessing workflows commonly used in real-world ML pipelines.
 
 ---
 
 ## 🧠 Topics Covered
 
 * Handling missing values
-* Encoding categorical data (Label, Ordinal, One-Hot Encoding)
-* Feature scaling (Standardization & MinMax Scaling)
-* Log transformation
 * Data cleaning and preprocessing
+* Feature scaling
+  * StandardScaler
+  * MinMaxScaler
+* Log transformation
+* Power Transformation
+  * PowerTransformer
+  * Distribution normalization
+  * Skewness reduction
+* Encoding categorical data
+  * Label Encoding
+  * Ordinal Encoding
+  * One-Hot Encoding
+* Feature selection
 * Correlation analysis
-* One-Hot Encoding using `pd.get_dummies()`
+* Boolean to numeric conversion
+* Data visualization for preprocessing
+* Preparing datasets for ML models
 
 ---
 
@@ -52,22 +66,34 @@ It focuses on understanding how raw data is transformed into a format suitable f
 * Correlation analysis with target (Price)
 * Final dataset preparation
 
+### 🔹 PowerTransformer.ipynb
+
+* Understanding skewed data
+* Applying PowerTransformer
+* Feature transformation techniques
+* Normalizing numerical distributions
+* Preparing transformed data for ML algorithms
+* Comparing transformed vs original data
+* Basic preprocessing workflow using sklearn
+
 ---
 
 ## ⚙️ Steps Performed
 
 1. Created dataset
 2. Handled missing values
-3. Applied encoding techniques
-4. Performed feature scaling
-5. Applied log transformation
-6. Visualized data changes
-7. Applied One-Hot Encoding
-8. Converted boolean values
-9. Removed unnecessary columns
-10. Fixed correlation issues
-11. Analyzed feature relationships
-12. Prepared final dataset
+3. Cleaned raw data
+4. Applied encoding techniques
+5. Performed feature scaling
+6. Applied log transformation
+7. Applied Power Transformation
+8. Visualized data changes
+9. Applied One-Hot Encoding
+10. Converted boolean values
+11. Removed unnecessary columns
+12. Fixed correlation issues
+13. Analyzed feature relationships
+14. Prepared final dataset for ML models
 
 ---
 
@@ -86,27 +112,31 @@ It focuses on understanding how raw data is transformed into a format suitable f
 
 * Importance of preprocessing in ML
 * Difference between raw vs scaled data
+* Understanding skewed distributions
 * When to use scaling and encoding
+* Importance of PowerTransformer in preprocessing
 * Handling categorical data effectively
 * Data cleaning before modeling
 * Understanding feature relationships
+* Building preprocessing workflows using sklearn
 
 ---
 
 ## ▶️ How to Run
 
 1. Open notebooks in Jupyter Notebook / Google Colab
-2. Run all cells sequentially
-3. Observe outputs and visualizations
+2. Install required libraries if needed
+3. Run all cells sequentially
+4. Observe outputs and visualizations
 
 ---
 
 ## 🎯 Purpose
 
-This repository is created for **practice and learning**, building a strong foundation in feature engineering used in real-world ML workflows.
+This repository is created for **practice and learning purposes**, helping build a strong foundation in feature engineering and preprocessing techniques used in real-world Machine Learning workflows.
 
 ---
 
 ## 📝 Note
 
-This is a **beginner-level practice project**, focused on learning core concepts and gradually moving toward real-world datasets and projects.
+This is a **beginner-level practice repository** focused on learning core preprocessing concepts step-by-step before moving toward advanced machine learning projects and real-world datasets.
