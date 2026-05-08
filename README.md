@@ -3,7 +3,7 @@
 ## 📌 Overview
 
 This repository contains hands-on practice of **feature engineering, data preprocessing, and transformation techniques** using Python and Scikit-learn.  
-It focuses on understanding how raw data is cleaned, transformed, encoded, and prepared for machine learning models.
+It focuses on understanding how raw data is cleaned, transformed, encoded, scaled, and prepared for machine learning models.
 
 The repository includes beginner-friendly practical notebooks covering preprocessing workflows commonly used in real-world ML pipelines.
 
@@ -28,6 +28,7 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Feature selection
 * Correlation analysis
 * Boolean to numeric conversion
+* Binning and discretization
 * Data visualization for preprocessing
 * Preparing datasets for ML models
 
@@ -76,6 +77,17 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Comparing transformed vs original data
 * Basic preprocessing workflow using sklearn
 
+### 🔹 binning_practice.ipynb
+
+* Understanding data binning
+* Converting continuous data into categories
+* Equal-width binning
+* Equal-frequency binning
+* Using pd.cut() and pd.qcut()
+* Creating categorical ranges from numerical data
+* Data preprocessing for ML workflows
+* Visualization of binned data
+
 ---
 
 ## ⚙️ Steps Performed
@@ -87,13 +99,14 @@ The repository includes beginner-friendly practical notebooks covering preproces
 5. Performed feature scaling
 6. Applied log transformation
 7. Applied Power Transformation
-8. Visualized data changes
-9. Applied One-Hot Encoding
-10. Converted boolean values
-11. Removed unnecessary columns
-12. Fixed correlation issues
-13. Analyzed feature relationships
-14. Prepared final dataset for ML models
+8. Applied binning techniques
+9. Visualized data changes
+10. Applied One-Hot Encoding
+11. Converted boolean values
+12. Removed unnecessary columns
+13. Fixed correlation issues
+14. Analyzed feature relationships
+15. Prepared final dataset for ML models
 
 ---
 
@@ -113,6 +126,7 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Importance of preprocessing in ML
 * Difference between raw vs scaled data
 * Understanding skewed distributions
+* Understanding data binning and discretization
 * When to use scaling and encoding
 * Importance of PowerTransformer in preprocessing
 * Handling categorical data effectively
