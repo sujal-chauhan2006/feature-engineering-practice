@@ -29,6 +29,7 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Correlation analysis
 * Boolean to numeric conversion
 * Binning and discretization
+* Binarization techniques
 * Data visualization for preprocessing
 * Preparing datasets for ML models
 
@@ -88,6 +89,18 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Data preprocessing for ML workflows
 * Visualization of binned data
 
+### 🔹 Binarization.ipynb
+
+* Understanding binarization techniques
+* Converting numerical values into binary form
+* Using sklearn Binarizer
+* Applying ColumnTransformer
+* Feature preprocessing workflow
+* Preparing transformed data for machine learning
+* Train-test split implementation
+* Model training and evaluation
+* Understanding threshold-based transformation
+
 ---
 
 ## ⚙️ Steps Performed
@@ -100,13 +113,14 @@ The repository includes beginner-friendly practical notebooks covering preproces
 6. Applied log transformation
 7. Applied Power Transformation
 8. Applied binning techniques
-9. Visualized data changes
-10. Applied One-Hot Encoding
-11. Converted boolean values
-12. Removed unnecessary columns
-13. Fixed correlation issues
-14. Analyzed feature relationships
-15. Prepared final dataset for ML models
+9. Applied binarization techniques
+10. Visualized data changes
+11. Applied One-Hot Encoding
+12. Converted boolean values
+13. Removed unnecessary columns
+14. Fixed correlation issues
+15. Analyzed feature relationships
+16. Prepared final dataset for ML models
 
 ---
 
@@ -127,12 +141,14 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Difference between raw vs scaled data
 * Understanding skewed distributions
 * Understanding data binning and discretization
+* Understanding binarization preprocessing
 * When to use scaling and encoding
 * Importance of PowerTransformer in preprocessing
 * Handling categorical data effectively
 * Data cleaning before modeling
 * Understanding feature relationships
 * Building preprocessing workflows using sklearn
+* Using ColumnTransformer in ML pipelines
 
 ---
 
