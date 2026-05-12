@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository contains hands-on practice of **feature engineering, data preprocessing, and transformation techniques** using Python and Scikit-learn.  
+This repository contains hands-on practice of **feature engineering, data preprocessing, and transformation techniques** using Python and Scikit-learn.
 It focuses on understanding how raw data is cleaned, transformed, encoded, scaled, and prepared for machine learning models.
 
 The repository includes beginner-friendly practical notebooks covering preprocessing workflows commonly used in real-world ML pipelines.
@@ -14,14 +14,17 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Handling missing values
 * Data cleaning and preprocessing
 * Feature scaling
+
   * StandardScaler
   * MinMaxScaler
 * Log transformation
 * Power Transformation
+
   * PowerTransformer
   * Distribution normalization
   * Skewness reduction
 * Encoding categorical data
+
   * Label Encoding
   * Ordinal Encoding
   * One-Hot Encoding
@@ -32,6 +35,9 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Binarization techniques
 * Data visualization for preprocessing
 * Preparing datasets for ML models
+* Handling date and time features
+* Handling mixed variables
+* Feature extraction from categorical-text data
 
 ---
 
@@ -101,6 +107,28 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Model training and evaluation
 * Understanding threshold-based transformation
 
+### 🔹 Handling_Mixed_Variable.ipynb
+
+* Understanding mixed variables
+* Separating categorical and numerical information
+* Feature extraction from Cabin and Ticket columns
+* Regex-based extraction techniques
+* Handling text + number combined features
+* Creating new categorical and numerical features
+* Data preprocessing using pandas string methods
+* Feature engineering workflow for mixed data types
+
+### 🔹 Handling_Date_&_Time.ipynb
+
+* Working with datetime data
+* Extracting year, month, day, and week
+* Extracting weekday and weekend information
+* Semester feature creation
+* Time feature extraction
+* Datetime preprocessing using pandas
+* Feature engineering from date and time columns
+* Creating ML-ready temporal features
+
 ---
 
 ## ⚙️ Steps Performed
@@ -121,6 +149,9 @@ The repository includes beginner-friendly practical notebooks covering preproces
 14. Fixed correlation issues
 15. Analyzed feature relationships
 16. Prepared final dataset for ML models
+17. Extracted features from date and time columns
+18. Handled mixed categorical and numerical variables
+19. Created new engineered features from raw data
 
 ---
 
@@ -149,6 +180,9 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Understanding feature relationships
 * Building preprocessing workflows using sklearn
 * Using ColumnTransformer in ML pipelines
+* Working with datetime features
+* Extracting useful information from mixed variables
+* Creating engineered features from raw datasets
 
 ---
 
