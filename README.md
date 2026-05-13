@@ -38,7 +38,8 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Handling date and time features
 * Handling mixed variables
 * Feature extraction from categorical-text data
-
+* Missing value handling
+* Missing data preprocessing
 ---
 
 ## 📂 Notebooks Included
@@ -129,6 +130,12 @@ The repository includes beginner-friendly practical notebooks covering preproces
 * Feature engineering from date and time columns
 * Creating ML-ready temporal features
 
+### 🔹 Handling_Missing_Values/
+
+* Missing value preprocessing notebooks
+* Null value analysis
+* Imputation techniques
+* Feature engineering with missing data
 ---
 
 ## ⚙️ Steps Performed
