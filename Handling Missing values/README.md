@@ -19,6 +19,8 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 * Data preprocessing workflows
 * Feature engineering with missing data
 * Practical preprocessing techniques using pandas and sklearn
+* Histogram visualization
+* Comparing original and transformed data distributions
 
 ---
 
@@ -35,6 +37,18 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 
 ---
 
+### 🔹 Handling_Missing_Numeric_Data.ipynb
+
+* Handling missing numerical values
+* Mean imputation techniques
+* Median imputation techniques
+* Numerical data preprocessing
+* Distribution comparison before and after imputation
+* Histogram visualization using Matplotlib
+* Practical preprocessing workflow using pandas and sklearn
+
+---
+
 ## 🛠️ Tools & Libraries
 
 * Python
@@ -48,3 +62,5 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 ## 🎯 Purpose
 
 This folder is created for practicing and understanding different missing value handling techniques used in real-world Machine Learning preprocessing pipelines.
+
+The notebooks are designed as hands-on learning projects for improving data preprocessing, feature engineering, and machine learning workflow skills.
