@@ -49,6 +49,20 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 
 ---
 
+---
+
+### 🔹 Handling_Missing_Categorical_Data.ipynb
+
+* Handling missing categorical values
+* Mode imputation for categorical columns
+* Using fillna() for categorical data
+* Using SimpleImputer for preprocessing
+* Handling GarageQual and FireplaceQu missing values
+* Comparing original and transformed categorical distributions
+* Histogram and countplot visualization
+* Practical categorical preprocessing workflow using pandas and sklearn
+
+---
 ## 🛠️ Tools & Libraries
 
 * Python
