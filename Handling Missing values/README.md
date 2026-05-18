@@ -63,6 +63,32 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 * Practical categorical preprocessing workflow using pandas and sklearn
 
 ---
+
+### 🔹 random_sample_imputation.ipynb
+
+* Understanding Random Sample Imputation
+* Handling missing numerical values using random sampling
+* Preserving original data distribution
+* Comparing original and transformed data distributions
+* Histogram visualization using Matplotlib
+* Feature engineering with random sample replacement
+* Practical preprocessing workflow using pandas and sklearn
+* Working with missing values in machine learning datasets
+
+---
+
+### 🔹 Missing_indicator.ipynb
+
+* Understanding Missing Indicator technique
+* Creating binary indicators for missing values
+* Feature engineering using missing indicators
+* Detecting patterns in missing data
+* Handling missing values in numerical and categorical features
+* Data preprocessing using pandas and sklearn
+* Comparing datasets before and after transformation
+* Practical machine learning preprocessing workflow
+
+---
 ## 🛠️ Tools & Libraries
 
 * Python
