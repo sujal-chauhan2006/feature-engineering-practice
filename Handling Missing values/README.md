@@ -89,6 +89,21 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 * Practical machine learning preprocessing workflow
 
 ---
+
+### 🔹 KNN_Imputer.ipynb
+
+* Understanding KNN Imputation technique
+* Handling missing numerical values using nearest neighbors
+* Using KNNImputer for preprocessing
+* Distance-based missing value estimation
+* Comparing original and transformed data distributions
+* Histogram visualization using Matplotlib
+* Data preprocessing workflow using pandas and sklearn
+* Feature engineering with KNN-based imputation
+* Practical machine learning preprocessing workflow
+* Working with missing values in machine learning datasets
+
+---
 ## 🛠️ Tools & Libraries
 
 * Python
