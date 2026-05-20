@@ -104,6 +104,22 @@ The notebooks demonstrate different techniques used to identify, analyze, and tr
 * Working with missing values in machine learning datasets
 
 ---
+### 🔹 Mice_equation_for_missing_data.ipynb
+
+* Understanding MICE (Multiple Imputation by Chained Equations)
+* Handling missing values using IterativeImputer
+* Predicting missing values using feature relationships
+* Advanced numerical missing value imputation
+* Comparing original and transformed data distributions
+* Histogram visualization using Matplotlib
+* Data preprocessing workflow using pandas and sklearn
+* Feature engineering with iterative imputation
+* Practical machine learning preprocessing workflow
+* Working with missing values in machine learning datasets
+* Understanding advantages and limitations of MICE imputation
+
+---
+
 ## 🛠️ Tools & Libraries
 
 * Python
